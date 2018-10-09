@@ -11,3 +11,4 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 > npm install
 > npm start
 ```
+### Project built on Stephen Grider's seed app during the Udemy course "Modern React with Redux".
