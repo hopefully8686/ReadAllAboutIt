@@ -1,5 +1,6 @@
 export const bookData = {
   "books": [{
+      "ISBN": 1,
       "author": "Chinua Achebe",
       "country": "Nigeria",
       "imageLink": "images/things-fall-apart.jpg",
@@ -10,6 +11,7 @@ export const bookData = {
       "year": 1958
     },
     {
+      "ISBN": 2,
       "author": "Hans Christian Andersen",
       "country": "Denmark",
       "imageLink": "images/fairy-tales.jpg",
@@ -20,6 +22,7 @@ export const bookData = {
       "year": 1836
     },
     {
+      "ISBN": 3,
       "author": "Dante Alighieri",
       "country": "Italy",
       "imageLink": "images/the-divine-comedy.jpg",
@@ -30,6 +33,7 @@ export const bookData = {
       "year": 1315
     },
     {
+      "ISBN": 4,
       "author": "Unknown",
       "country": "Sumer and Akkadian Empire",
       "imageLink": "images/the-epic-of-gilgamesh.jpg",
@@ -40,6 +44,7 @@ export const bookData = {
       "year": -1700
     },
     {
+      "ISBN": 5,
       "author": "Unknown",
       "country": "Achaemenid Empire",
       "imageLink": "images/the-book-of-job.jpg",
@@ -50,6 +55,7 @@ export const bookData = {
       "year": -600
     },
     {
+      "ISBN": 6,
       "author": "Unknown",
       "country": "India/Iran/Iraq/Egypt/Tajikistan",
       "imageLink": "images/one-thousand-and-one-nights.jpg",
@@ -60,6 +66,7 @@ export const bookData = {
       "year": 1200
     },
     {
+      "ISBN": 7,
       "author": "Unknown",
       "country": "Iceland",
       "imageLink": "images/njals-saga.jpg",
@@ -70,6 +77,7 @@ export const bookData = {
       "year": 1350
     },
     {
+      "ISBN": 8,
       "author": "Jane Austen",
       "country": "United Kingdom",
       "imageLink": "images/pride-and-prejudice.jpg",
@@ -80,6 +88,7 @@ export const bookData = {
       "year": 1813
     },
     {
+      "ISBN": 9,
       "author": "Honor\u00e9 de Balzac",
       "country": "France",
       "imageLink": "images/le-pere-goriot.jpg",
@@ -90,6 +99,7 @@ export const bookData = {
       "year": 1835
     },
     {
+      "ISBN": 10,
       "author": "Samuel Beckett",
       "country": "Republic of Ireland",
       "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
@@ -100,6 +110,7 @@ export const bookData = {
       "year": 1952
     },
     {
+      "ISBN": 11,
       "author": "Giovanni Boccaccio",
       "country": "Italy",
       "imageLink": "images/the-decameron.jpg",
@@ -110,6 +121,7 @@ export const bookData = {
       "year": 1351
     },
     {
+      "ISBN": 12,
       "author": "Jorge Luis Borges",
       "country": "Argentina",
       "imageLink": "images/ficciones.jpg",
@@ -120,6 +132,7 @@ export const bookData = {
       "year": 1965
     },
     {
+      "ISBN": 13,
       "author": "Emily Bront\u00eb",
       "country": "United Kingdom",
       "imageLink": "images/wuthering-heights.jpg",
@@ -130,6 +143,7 @@ export const bookData = {
       "year": 1847
     },
     {
+      "ISBN": 14,
       "author": "Albert Camus",
       "country": "Algeria, French Empire",
       "imageLink": "images/l-etranger.jpg",
@@ -140,6 +154,7 @@ export const bookData = {
       "year": 1942
     },
     {
+      "ISBN": 15,
       "author": "Paul Celan",
       "country": "Romania, France",
       "imageLink": "images/poems-paul-celan.jpg",
@@ -150,6 +165,7 @@ export const bookData = {
       "year": 1952
     },
     {
+      "ISBN": 16,
       "author": "Louis-Ferdinand C\u00e9line",
       "country": "France",
       "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
@@ -160,6 +176,7 @@ export const bookData = {
       "year": 1932
     },
     {
+      "ISBN": 17,
       "author": "Miguel de Cervantes",
       "country": "Spain",
       "imageLink": "images/don-quijote-de-la-mancha.jpg",
@@ -170,6 +187,7 @@ export const bookData = {
       "year": 1610
     },
     {
+      "ISBN": 18,
       "author": "Geoffrey Chaucer",
       "country": "England",
       "imageLink": "images/the-canterbury-tales.jpg",
@@ -180,6 +198,7 @@ export const bookData = {
       "year": 1450
     },
     {
+      "ISBN": 19,
       "author": "Anton Chekhov",
       "country": "Russia",
       "imageLink": "images/stories-of-anton-chekhov.jpg",
@@ -190,6 +209,7 @@ export const bookData = {
       "year": 1886
     },
     {
+      "ISBN": 20,
       "author": "Joseph Conrad",
       "country": "United Kingdom",
       "imageLink": "images/nostromo.jpg",
@@ -200,6 +220,7 @@ export const bookData = {
       "year": 1904
     },
     {
+      "ISBN": 21,
       "author": "Charles Dickens",
       "country": "United Kingdom",
       "imageLink": "images/great-expectations.jpg",
@@ -210,6 +231,7 @@ export const bookData = {
       "year": 1861
     },
     {
+      "ISBN": 22,
       "author": "Denis Diderot",
       "country": "France",
       "imageLink": "images/jacques-the-fatalist.jpg",
@@ -220,6 +242,7 @@ export const bookData = {
       "year": 1796
     },
     {
+      "ISBN": 23,
       "author": "Alfred D\u00f6blin",
       "country": "Germany",
       "imageLink": "images/berlin-alexanderplatz.jpg",
@@ -230,6 +253,7 @@ export const bookData = {
       "year": 1929
     },
     {
+      "ISBN": 24,
       "author": "Fyodor Dostoevsky",
       "country": "Russia",
       "imageLink": "images/crime-and-punishment.jpg",
@@ -240,6 +264,7 @@ export const bookData = {
       "year": 1866
     },
     {
+      "ISBN": 25,
       "author": "Fyodor Dostoevsky",
       "country": "Russia",
       "imageLink": "images/the-idiot.jpg",
@@ -250,6 +275,7 @@ export const bookData = {
       "year": 1869
     },
     {
+      "ISBN": 26,
       "author": "Fyodor Dostoevsky",
       "country": "Russia",
       "imageLink": "images/the-possessed.jpg",
@@ -260,6 +286,7 @@ export const bookData = {
       "year": 1872
     },
     {
+      "ISBN": 27,
       "author": "Fyodor Dostoevsky",
       "country": "Russia",
       "imageLink": "images/the-brothers-karamazov.jpg",
@@ -270,6 +297,7 @@ export const bookData = {
       "year": 1880
     },
     {
+      "ISBN": 28,
       "author": "George Eliot",
       "country": "United Kingdom",
       "imageLink": "images/middlemarch.jpg",
@@ -280,6 +308,7 @@ export const bookData = {
       "year": 1871
     },
     {
+      "ISBN": 29,
       "author": "Ralph Ellison",
       "country": "United States",
       "imageLink": "images/invisible-man.jpg",
@@ -290,6 +319,7 @@ export const bookData = {
       "year": 1952
     },
     {
+      "ISBN": 30,
       "author": "Euripides",
       "country": "Greece",
       "imageLink": "images/medea.jpg",
@@ -300,6 +330,7 @@ export const bookData = {
       "year": -431
     },
     {
+      "ISBN": 31,
       "author": "William Faulkner",
       "country": "United States",
       "imageLink": "images/absalom-absalom.jpg",
@@ -310,6 +341,7 @@ export const bookData = {
       "year": 1936
     },
     {
+      "ISBN": 32,
       "author": "William Faulkner",
       "country": "United States",
       "imageLink": "images/the-sound-and-the-fury.jpg",
@@ -320,6 +352,7 @@ export const bookData = {
       "year": 1929
     },
     {
+      "ISBN": 33,
       "author": "Gustave Flaubert",
       "country": "France",
       "imageLink": "images/madame-bovary.jpg",
@@ -330,6 +363,7 @@ export const bookData = {
       "year": 1857
     },
     {
+      "ISBN": 34,
       "author": "Gustave Flaubert",
       "country": "France",
       "imageLink": "images/l-education-sentimentale.jpg",
@@ -340,6 +374,7 @@ export const bookData = {
       "year": 1869
     },
     {
+      "ISBN": 35,
       "author": "Federico Garc\u00eda Lorca",
       "country": "Spain",
       "imageLink": "images/gypsy-ballads.jpg",
@@ -350,6 +385,7 @@ export const bookData = {
       "year": 1928
     },
     {
+      "ISBN": 36,
       "author": "Gabriel Garc\u00eda M\u00e1rquez",
       "country": "Colombia",
       "imageLink": "images/one-hundred-years-of-solitude.jpg",
@@ -360,6 +396,7 @@ export const bookData = {
       "year": 1967
     },
     {
+      "ISBN": 37,
       "author": "Gabriel Garc\u00eda M\u00e1rquez",
       "country": "Colombia",
       "imageLink": "images/love-in-the-time-of-cholera.jpg",
@@ -370,6 +407,7 @@ export const bookData = {
       "year": 1985
     },
     {
+      "ISBN": 38,
       "author": "Johann Wolfgang von Goethe",
       "country": "Saxe-Weimar",
       "imageLink": "images/faust.jpg",
@@ -380,6 +418,7 @@ export const bookData = {
       "year": 1832
     },
     {
+      "ISBN": 39,
       "author": "Nikolai Gogol",
       "country": "Russia",
       "imageLink": "images/dead-souls.jpg",
@@ -390,6 +429,7 @@ export const bookData = {
       "year": 1842
     },
     {
+      "ISBN": 40,
       "author": "G\u00fcnter Grass",
       "country": "Germany",
       "imageLink": "images/the-tin-drum.jpg",
@@ -400,6 +440,7 @@ export const bookData = {
       "year": 1959
     },
     {
+      "ISBN": 41,
       "author": "Jo\u00e3o Guimar\u00e3es Rosa",
       "country": "Brazil",
       "imageLink": "images/the-devil-to-pay-in-the-backlands.jpg",
@@ -410,6 +451,7 @@ export const bookData = {
       "year": 1956
     },
     {
+      "ISBN": 42,
       "author": "Knut Hamsun",
       "country": "Norway",
       "imageLink": "images/hunger.jpg",
@@ -420,6 +462,7 @@ export const bookData = {
       "year": 1890
     },
     {
+      "ISBN": 43,
       "author": "Ernest Hemingway",
       "country": "United States",
       "imageLink": "images/the-old-man-and-the-sea.jpg",
@@ -430,6 +473,7 @@ export const bookData = {
       "year": 1952
     },
     {
+      "ISBN": 44,
       "author": "Homer",
       "country": "Greece",
       "imageLink": "images/the-iliad-of-homer.jpg",
@@ -440,6 +484,7 @@ export const bookData = {
       "year": -735
     },
     {
+      "ISBN": 45,
       "author": "Homer",
       "country": "Greece",
       "imageLink": "images/the-odyssey-of-homer.jpg",
@@ -450,6 +495,7 @@ export const bookData = {
       "year": -800
     },
     {
+      "ISBN": 46,
       "author": "Henrik Ibsen",
       "country": "Norway",
       "imageLink": "images/a-Dolls-house.jpg",
@@ -460,6 +506,7 @@ export const bookData = {
       "year": 1879
     },
     {
+      "ISBN": 47,
       "author": "James Joyce",
       "country": "Irish Free State",
       "imageLink": "images/ulysses.jpg",
@@ -470,6 +517,7 @@ export const bookData = {
       "year": 1922
     },
     {
+      "ISBN": 48,
       "author": "Franz Kafka",
       "country": "Czechoslovakia",
       "imageLink": "images/stories-of-franz-kafka.jpg",
@@ -480,6 +528,7 @@ export const bookData = {
       "year": 1924
     },
     {
+      "ISBN": 49,
       "author": "Franz Kafka",
       "country": "Czechoslovakia",
       "imageLink": "images/the-trial.jpg",
@@ -490,6 +539,7 @@ export const bookData = {
       "year": 1925
     },
     {
+      "ISBN": 50,
       "author": "Franz Kafka",
       "country": "Czechoslovakia",
       "imageLink": "images/the-castle.jpg",
@@ -500,6 +550,7 @@ export const bookData = {
       "year": 1926
     },
     {
+      "ISBN": 51,
       "author": "K\u0101lid\u0101sa",
       "country": "India",
       "imageLink": "images/the-recognition-of-shakuntala.jpg",
@@ -510,6 +561,7 @@ export const bookData = {
       "year": 150
     },
     {
+      "ISBN": 52,
       "author": "Yasunari Kawabata",
       "country": "Japan",
       "imageLink": "images/the-sound-of-the-mountain.jpg",
@@ -520,6 +572,7 @@ export const bookData = {
       "year": 1954
     },
     {
+      "ISBN": 53,
       "author": "Nikos Kazantzakis",
       "country": "Greece",
       "imageLink": "images/zorba-the-greek.jpg",
@@ -530,6 +583,7 @@ export const bookData = {
       "year": 1946
     },
     {
+      "ISBN": 54,
       "author": "D. H. Lawrence",
       "country": "United Kingdom",
       "imageLink": "images/sons-and-lovers.jpg",
@@ -540,6 +594,7 @@ export const bookData = {
       "year": 1913
     },
     {
+      "ISBN": 55,
       "author": "Halld\u00f3r Laxness",
       "country": "Iceland",
       "imageLink": "images/independent-people.jpg",
@@ -550,6 +605,7 @@ export const bookData = {
       "year": 1934
     },
     {
+      "ISBN": 56,
       "author": "Giacomo Leopardi",
       "country": "Italy",
       "imageLink": "images/poems-giacomo-leopardi.jpg",
@@ -560,6 +616,7 @@ export const bookData = {
       "year": 1818
     },
     {
+      "ISBN": 57,
       "author": "Doris Lessing",
       "country": "United Kingdom",
       "imageLink": "images/the-golden-notebook.jpg",
@@ -570,6 +627,7 @@ export const bookData = {
       "year": 1962
     },
     {
+      "ISBN": 58,
       "author": "Astrid Lindgren",
       "country": "Sweden",
       "imageLink": "images/pippi-longstocking.jpg",
@@ -580,6 +638,7 @@ export const bookData = {
       "year": 1945
     },
     {
+      "ISBN": 59,
       "author": "Lu Xun",
       "country": "China",
       "imageLink": "images/diary-of-a-madman.jpg",
@@ -590,6 +649,7 @@ export const bookData = {
       "year": 1918
     },
     {
+      "ISBN": 60,
       "author": "Naguib Mahfouz",
       "country": "Egypt",
       "imageLink": "images/children-of-gebelawi.jpg",
@@ -600,6 +660,7 @@ export const bookData = {
       "year": 1959
     },
     {
+      "ISBN": 61,
       "author": "Thomas Mann",
       "country": "Germany",
       "imageLink": "images/buddenbrooks.jpg",
@@ -610,6 +671,7 @@ export const bookData = {
       "year": 1901
     },
     {
+      "ISBN": 62,
       "author": "Thomas Mann",
       "country": "Germany",
       "imageLink": "images/the-magic-mountain.jpg",
@@ -620,6 +682,7 @@ export const bookData = {
       "year": 1924
     },
     {
+      "ISBN": 63,
       "author": "Herman Melville",
       "country": "United States",
       "imageLink": "images/moby-dick.jpg",
@@ -630,6 +693,7 @@ export const bookData = {
       "year": 1851
     },
     {
+      "ISBN": 64,
       "author": "Michel de Montaigne",
       "country": "France",
       "imageLink": "images/essais.jpg",
@@ -640,6 +704,7 @@ export const bookData = {
       "year": 1595
     },
     {
+      "ISBN": 65,
       "author": "Elsa Morante",
       "country": "Italy",
       "imageLink": "images/history.jpg",
@@ -650,6 +715,7 @@ export const bookData = {
       "year": 1974
     },
     {
+      "ISBN": 66,
       "author": "Toni Morrison",
       "country": "United States",
       "imageLink": "images/beloved.jpg",
@@ -660,6 +726,7 @@ export const bookData = {
       "year": 1987
     },
     {
+      "ISBN": 67,
       "author": "Murasaki Shikibu",
       "country": "Japan",
       "imageLink": "images/the-tale-of-genji.jpg",
@@ -670,6 +737,7 @@ export const bookData = {
       "year": 1006
     },
     {
+      "ISBN": 68,
       "author": "Robert Musil",
       "country": "Austria",
       "imageLink": "images/the-man-without-qualities.jpg",
@@ -680,6 +748,7 @@ export const bookData = {
       "year": 1931
     },
     {
+      "ISBN": 69,
       "author": "Vladimir Nabokov",
       "country": "Russia/United States",
       "imageLink": "images/lolita.jpg",
@@ -690,6 +759,7 @@ export const bookData = {
       "year": 1955
     },
     {
+      "ISBN": 70,
       "author": "George Orwell",
       "country": "United Kingdom",
       "imageLink": "images/nineteen-eighty-four.jpg",
@@ -700,6 +770,7 @@ export const bookData = {
       "year": 1949
     },
     {
+      "ISBN": 71,
       "author": "Ovid",
       "country": "Roman Empire",
       "imageLink": "images/the-metamorphoses-of-ovid.jpg",
@@ -710,6 +781,7 @@ export const bookData = {
       "year": 100
     },
     {
+      "ISBN": 72,
       "author": "Fernando Pessoa",
       "country": "Portugal",
       "imageLink": "images/the-book-of-disquiet.jpg",
@@ -720,6 +792,7 @@ export const bookData = {
       "year": 1928
     },
     {
+      "ISBN": 73,
       "author": "Edgar Allan Poe",
       "country": "United States",
       "imageLink": "images/tales-and-poems-of-edgar-allan-poe.jpg",
@@ -730,6 +803,7 @@ export const bookData = {
       "year": 1950
     },
     {
+      "ISBN": 74,
       "author": "Marcel Proust",
       "country": "France",
       "imageLink": "images/a-la-recherche-du-temps-perdu.jpg",
@@ -740,6 +814,7 @@ export const bookData = {
       "year": 1920
     },
     {
+      "ISBN": 75,
       "author": "Fran\u00e7ois Rabelais",
       "country": "France",
       "imageLink": "images/gargantua-and-pantagruel.jpg",
@@ -750,6 +825,7 @@ export const bookData = {
       "year": 1533
     },
     {
+      "ISBN": 76,
       "author": "Juan Rulfo",
       "country": "Mexico",
       "imageLink": "images/pedro-paramo.jpg",
@@ -760,6 +836,7 @@ export const bookData = {
       "year": 1955
     },
     {
+      "ISBN": 77,
       "author": "Rumi",
       "country": "Sultanate of Rum",
       "imageLink": "images/the-masnavi.jpg",
@@ -770,6 +847,7 @@ export const bookData = {
       "year": 1236
     },
     {
+      "ISBN": 78,
       "author": "Salman Rushdie",
       "country": "United Kingdom, India",
       "imageLink": "images/midnights-children.jpg",
@@ -780,6 +858,7 @@ export const bookData = {
       "year": 1981
     },
     {
+      "ISBN": 79,
       "author": "Saadi",
       "country": "Persia, Persian Empire",
       "imageLink": "images/bostan.jpg",
@@ -790,6 +869,7 @@ export const bookData = {
       "year": 1257
     },
     {
+      "ISBN": 80,
       "author": "Tayeb Salih",
       "country": "Sudan",
       "imageLink": "images/season-of-migration-to-the-north.jpg",
@@ -800,6 +880,7 @@ export const bookData = {
       "year": 1966
     },
     {
+      "ISBN": 81,
       "author": "Jos\u00e9 Saramago",
       "country": "Portugal",
       "imageLink": "images/blindness.jpg",
@@ -810,6 +891,7 @@ export const bookData = {
       "year": 1995
     },
     {
+      "ISBN": 82,
       "author": "William Shakespeare",
       "country": "England",
       "imageLink": "images/hamlet.jpg",
@@ -820,6 +902,7 @@ export const bookData = {
       "year": 1603
     },
     {
+      "ISBN": 83,
       "author": "William Shakespeare",
       "country": "England",
       "imageLink": "images/king-lear.jpg",
@@ -830,6 +913,7 @@ export const bookData = {
       "year": 1608
     },
     {
+      "ISBN": 84,
       "author": "William Shakespeare",
       "country": "England",
       "imageLink": "images/othello.jpg",
@@ -840,6 +924,7 @@ export const bookData = {
       "year": 1609
     },
     {
+      "ISBN": 85,
       "author": "Sophocles",
       "country": "Greece",
       "imageLink": "images/oedipus-the-king.jpg",
@@ -850,6 +935,7 @@ export const bookData = {
       "year": -430
     },
     {
+      "ISBN": 86,
       "author": "Stendhal",
       "country": "France",
       "imageLink": "images/le-rouge-et-le-noir.jpg",
@@ -860,6 +946,7 @@ export const bookData = {
       "year": 1830
     },
     {
+      "ISBN": 87,
       "author": "Laurence Sterne",
       "country": "England",
       "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
@@ -870,6 +957,7 @@ export const bookData = {
       "year": 1760
     },
     {
+      "ISBN": 88,
       "author": "Italo Svevo",
       "country": "Italy",
       "imageLink": "images/confessions-of-zeno.jpg",
@@ -880,6 +968,7 @@ export const bookData = {
       "year": 1923
     },
     {
+      "ISBN": 89,
       "author": "Jonathan Swift",
       "country": "Ireland",
       "imageLink": "images/gullivers-travels.jpg",
@@ -890,6 +979,7 @@ export const bookData = {
       "year": 1726
     },
     {
+      "ISBN": 90,
       "author": "Leo Tolstoy",
       "country": "Russia",
       "imageLink": "images/war-and-peace.jpg",
@@ -900,6 +990,7 @@ export const bookData = {
       "year": 1867
     },
     {
+      "ISBN": 91,
       "author": "Leo Tolstoy",
       "country": "Russia",
       "imageLink": "images/anna-karenina.jpg",
@@ -910,6 +1001,7 @@ export const bookData = {
       "year": 1877
     },
     {
+      "ISBN": 92,
       "author": "Leo Tolstoy",
       "country": "Russia",
       "imageLink": "images/the-death-of-ivan-ilyich.jpg",
@@ -920,6 +1012,7 @@ export const bookData = {
       "year": 1886
     },
     {
+      "ISBN": 93,
       "author": "Mark Twain",
       "country": "United States",
       "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
@@ -930,6 +1023,7 @@ export const bookData = {
       "year": 1884
     },
     {
+      "ISBN": 94,
       "author": "Valmiki",
       "country": "India",
       "imageLink": "images/ramayana.jpg",
@@ -940,6 +1034,7 @@ export const bookData = {
       "year": -450
     },
     {
+      "ISBN": 95,
       "author": "Virgil",
       "country": "Roman Empire",
       "imageLink": "images/the-aeneid.jpg",
@@ -950,6 +1045,7 @@ export const bookData = {
       "year": -23
     },
     {
+      "ISBN": 96,
       "author": "Vyasa",
       "country": "India",
       "imageLink": "images/the-mahab-harata.jpg",
@@ -960,6 +1056,7 @@ export const bookData = {
       "year": -700
     },
     {
+      "ISBN": 97,
       "author": "Walt Whitman",
       "country": "United States",
       "imageLink": "images/leaves-of-grass.jpg",
@@ -970,6 +1067,7 @@ export const bookData = {
       "year": 1855
     },
     {
+      "ISBN": 98,
       "author": "Virginia Woolf",
       "country": "United Kingdom",
       "imageLink": "images/mrs-dalloway.jpg",
@@ -980,6 +1078,7 @@ export const bookData = {
       "year": 1925
     },
     {
+      "ISBN": 99,
       "author": "Virginia Woolf",
       "country": "United Kingdom",
       "imageLink": "images/to-the-lighthouse.jpg",
@@ -990,6 +1089,7 @@ export const bookData = {
       "year": 1927
     },
     {
+      "ISBN": 100,
       "author": "Marguerite Yourcenar",
       "country": "France/Belgium",
       "imageLink": "images/memoirs-of-hadrian.jpg",
