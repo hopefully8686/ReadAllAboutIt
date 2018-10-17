@@ -5,8 +5,6 @@ import { bookData } from '../data';
 class SearchBar extends Component {
   constructor(props) {
     super(props);
-
-    this.state = { searchQuery: '' };
   }
 
   handleSearch = (event) => {
@@ -14,13 +12,11 @@ class SearchBar extends Component {
   }
 
   render() {
-    const filterResults = this.state.searchQuery.filter(book => book.title.indexOf(this.state.searchQuery) > -1)
-
     return (
       <TextField
         className="search-bar"
         label="Search"
-        value={this.state.searchQuery} 
+        value={this.props.searchQuery} 
         onChange={event => this.handleSearch(event)} 
         margin="dense"
       />

@@ -12,6 +12,7 @@ class App extends Component {
     this.state = { 
       bookData,
       selectedBook: null,
+      searchQuery: ''
     };
   }
 
