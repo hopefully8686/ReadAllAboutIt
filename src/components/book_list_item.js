@@ -10,14 +10,13 @@ var cellStyle = {
   minWidth: 300,
 };
 
-const BookListItem = ({book, onBookSelect}) => {
+const BookListItem = ({book}) => {
   const bookLink = <a href={book.link}>Read More About It</a>;
   return (
     <Table>
       <TableBody>
         <TableRow
           className="row-item" 
-          onClick={() => onBookSelect(book)}
           hover
         >
           <TableCell>

@@ -1,33 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { bookData } from './data.js';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
 
-import SearchBar from './components/search_bar';
-import BookList from './components/book_list';
+import App from './components/app';
+import reducers from './reducers';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
+const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-    this.state = { 
-      bookData,
-      selectedBook: null,
-      searchQuery: ''
-    };
-  }
-
-  render() {
-    return (
-      <div>
-        <SearchBar />
-        <BookList
-          value={this.state.selectedBook}
-          onBookSelect={ selectedBook => this.setState({selectedBook}) }
-          books={this.state.bookData} 
-        />
-      </div>
-    );
-  }
-}
-
-ReactDOM.render( <App /> , document.querySelector('.container'));
+ReactDOM.render( 
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>
+  , document.querySelector('.container'));

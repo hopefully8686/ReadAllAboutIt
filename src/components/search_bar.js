@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
-import { bookData } from '../data';
 
 class SearchBar extends Component {
   constructor(props) {
