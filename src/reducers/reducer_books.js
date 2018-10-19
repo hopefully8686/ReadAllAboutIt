@@ -1,8 +1,10 @@
-export default function(state = null, action) {
+const bookReducer = (state = { books: []}, action) => {
   switch(action.type) {
-    case FETCH_BOOKS:
-      return action.payload
+    case 'FETCH_BOOKS':
+      return action.payload.bookData;
   }
 
   return state;
 }
+
+export default bookReducer;

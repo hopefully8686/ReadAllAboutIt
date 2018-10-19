@@ -8,10 +8,7 @@ export default class App extends Component {
     return (
       <div>
         <SearchBar />
-        <BookList
-          onBookSelect={ selectedBook => this.setState({selectedBook}) }
-          books={this.state.bookData} 
-        />
+        <BookList />
       </div>
     );
   }
