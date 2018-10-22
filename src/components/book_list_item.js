@@ -10,8 +10,8 @@ var cellStyle = {
   minWidth: 300,
 };
 
-const BookListItem = ({book}) => {
-  const bookLink = <a href={book.link}>Read More About It</a>;
+const BookListItem = ({ link, title, author, img }) => {
+  const bookLink = <a href={link}>Read More About It</a>;
   return (
     <Table>
       <TableBody>
@@ -20,13 +20,13 @@ const BookListItem = ({book}) => {
           hover
         >
           <TableCell>
-            <img src={book.imageLink} />
+            {img}
           </TableCell>
           <TableCell style={cellStyle}>
-            {book.title}
+            {title}
           </TableCell>
           <TableCell style={cellStyle}>
-            {book.author}
+            {author}
           </TableCell>
           <TableCell style={cellStyle}>
             {bookLink}

@@ -12,14 +12,15 @@ class BookList extends Component {
   // const filterResults = props.books.books.filter(books => books.title.indexOf(props.searchQuery) > -1)
   //Look up Object.values
   renderList() {
-    debugger;
      return this.props.books.map((book) => {
       return (
         <BookListItem
           key={book.ISBN} 
-          // onClick={() => this.props.fetchBooks()}
+          link={book.link}
+          title={book.title}
+          author={book.author}
+          img={<img src={book.imageLink} />}
         >
-          {book.title}
         </BookListItem>
       );
     });
