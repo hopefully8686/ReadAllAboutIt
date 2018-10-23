@@ -10,18 +10,20 @@ class BookList extends Component {
     this.props.fetchBooks();
   }
   // const filterResults = props.books.books.filter(books => books.title.indexOf(props.searchQuery) > -1)
-  //Look up Object.values
+  //Look up Object.values for generic filter
+  // Look up includes instead of indexOf()
+  // filter(this.props.books).map()
   renderList() {
      return this.props.books.map((book) => {
       return (
         <BookListItem
+        book={book}
           key={book.ISBN} 
-          link={book.link}
-          title={book.title}
-          author={book.author}
-          img={<img src={book.imageLink} />}
-        >
-        </BookListItem>
+          // link={book.link}
+          // title={book.title}
+          // author={book.author}
+          // language={book.language}
+        />
       );
     });
   }
@@ -42,6 +44,6 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchBooks: fetchBooks }, dispatch)
+  return bindActionCreators({ fetchBooks }, dispatch)
 }
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);

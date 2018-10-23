@@ -1,6 +1,6 @@
 import { bookData } from '../data.js';
 
-const FETCH_BOOKS = 'FETCH_BOOKS';
+export const FETCH_BOOKS = 'FETCH_BOOKS';
 export function fetchBooks() {
   return {
     type: FETCH_BOOKS,
