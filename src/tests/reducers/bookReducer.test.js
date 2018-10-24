@@ -1,20 +1,30 @@
 import * as reducers from '../../reducers/reducer_books';
 import * as types from '../../actions/index';
-// import deepFreeze from 'deep-freeze';
-import bookData from '../../data';
+import deepFreeze from 'deep-freeze';
 
 describe('book.reducer', () => {
-  it('fetches the json data from a file', () => {
-    // const initialState = {};
-    // deepFreeze(initialState);
+  it('returns book data as state', () => {
+    const initialState = {books: []};
+    deepFreeze(initialState);
 
-    // const payload = { bookData };
-    // const changedState = reducers.fetchBooks(initialState, {
-    //   type: types.FETCH_BOOKS, 
-    //   payload 
-    // });
+    const newBookData = {
+      "books": [
+        {
+          "ISBN": 200,
+          "author": "Douglas Adams",
+          "country": "USA",
+          "imageLink": "",
+          "language": "English",
+          "link": "",
+          "pages": 500,
+          "title": "Hitchhiker's Guide to the Galaxy",
+          "year": 1978
+        }
+      ]
+    }
+    const payload = { bookData: newBookData };
+    const changedState = reducers.bookReducer({ books: []}, {type: 'FETCH_BOOKS', payload});
 
-    // expect(changedState).toBeInstanceOf(Object);
-    
+    expect(changedState).toEqual(newBookData);
   });
 });

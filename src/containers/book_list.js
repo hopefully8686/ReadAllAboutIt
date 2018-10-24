@@ -17,12 +17,8 @@ class BookList extends Component {
      return this.props.books.map((book) => {
       return (
         <BookListItem
-        book={book}
-          key={book.ISBN} 
-          // link={book.link}
-          // title={book.title}
-          // author={book.author}
-          // language={book.language}
+          book={book}
+          key={book.ISBN}
         />
       );
     });
