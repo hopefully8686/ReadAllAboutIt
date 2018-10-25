@@ -3,9 +3,6 @@ import toJson from 'enzyme-to-json';
 import { shallow } from 'enzyme';
 
 import App from '../../components/app';
-//install enzyme-to-json
-//install deep-freeze
-//install @material-ui/icons again
 
 describe('App', () => {
   beforeEach(() => {
