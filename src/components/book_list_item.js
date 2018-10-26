@@ -1,6 +1,4 @@
 import React, { PureComponent } from 'react';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import IconButton from '@material-ui/core/IconButton';
@@ -17,18 +15,16 @@ class BookListItem extends PureComponent {
     const { book }= this.props;
     const bookLink = <a href={this.props.book.link}>Read More About It</a>;
     return (
-      <Table>
-        <TableBody>
           <TableRow
             className="row-item" 
             hover
           >
-            <TableCell>
+            {/* <TableCell>
               {<img src={book.imageLink} />}
-            </TableCell>
+            </TableCell> */}
             <TableCell style={cellStyle}>
               {book.title}
-              {book.language==="English" ? <IconButton><LanguageIcon /></IconButton> : null}
+              {book.language==="English" ? <IconButton name="bookLanguage"><LanguageIcon /></IconButton> : null}
             </TableCell>
             <TableCell style={cellStyle}>
               {book.author}
@@ -37,8 +33,6 @@ class BookListItem extends PureComponent {
               {bookLink}
             </TableCell>
           </TableRow>
-        </TableBody>
-      </Table>
     );
   }
 };

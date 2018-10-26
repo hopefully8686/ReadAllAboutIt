@@ -5,12 +5,13 @@ import { shallow } from 'enzyme';
 import App from '../../components/app';
 
 describe('App', () => {
+  let appComp;
   beforeEach(() => {
-    component = shallow(<App />);
+    appComp = shallow(<App />);
   });
 
   it('renders an App snapshot', () => {
-    const tree = toJson(App);
+    const tree = toJson(appComp);
     expect(tree).toMatchSnapshot();
   });
 });

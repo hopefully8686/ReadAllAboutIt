@@ -1,7 +1,6 @@
 {
   "rootDir": "src",
-  "verbose": true,
-  "textRegex": "src/tests/.*test.js$",
+  "textRegex": "src/tests/*.test.js$",
   "coverageDirectory": "<rootDir>/tests/__coverage__/",
   "setupFiles": [
     "<rootDir>/tests/__mocks__/polyfill.js",
