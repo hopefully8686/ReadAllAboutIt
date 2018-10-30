@@ -62,7 +62,7 @@ describe('BookList', () => {
     });
   });
 
-  it('maps intended actions through dispatch to props', () => {
+  it('dispatches FETCH_BOOKS action', () => {
     const dispatch = jest.fn();
     const componentState = mapDispatchToProps(dispatch);
     expect(JSON.stringify(componentState)).toBe(JSON.stringify(bindActionCreators(Object.assign({}, action), dispatch)));
