@@ -7,7 +7,7 @@ import promise from 'redux-promise';
 
 import BookList from './containers/book_list';
 import BooksByAuthor from './components/books_by_author';
-// import BooksByCountry from './components/books_by_country';
+import BooksByCountry from './components/books_by_country';
 
 import reducers from './reducers';
 
