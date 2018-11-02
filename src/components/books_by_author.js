@@ -7,17 +7,19 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
 import FetchData from '../containers/fetch_data';
+import groupBy from '../utilities/reduce';
 
 @FetchData
 export class BooksByAuthor extends Component {
   render() {
     return (
       <Card>
-        {this.props.books.map((book) => {
+        {Object.entries(groupBy(this.props.books, 'author')).map((bookArray) => {
+          console.log(bookArray);
           return (
-            <CardContent key={book.ISBN}>
+            <CardContent key={bookArray[0]}>
               <Typography color="primary" gutterBottom>
-                {book.author}
+                {bookArray[0] + ' (' + bookArray[1].length + ' )'}
               </Typography>
             </CardContent>
           )
